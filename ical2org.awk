@@ -74,7 +74,7 @@ BEGIN {
 
     # set to 1 or 0 to yes or not output a header block with TITLE,
     # AUTHOR, EMAIL etc...
-    header = 1;
+    header = 0;
 
     # set to 1 or 0 to yes or not output the original ical preamble as
     # comment
