@@ -392,13 +392,6 @@ BEGIN {
             print "  :ATTENDING: " attending_string
             print "  :ATTENDEES: " join_keys(people_attending)
             print "  :END:"
-            if (date2 != "")
-            {
-                # Fake some logbook entries so we can generate a clock report
-                print "  :LOGBOOK:"
-                print "  CLOCK: [" date1 "]--[" date2 "] =>  " "0:00"
-                print "  :END"
-            }
             if (!condense)
                  print "<" date ">"
 
